@@ -1,0 +1,6 @@
+.venv/
+data/
+config.json
+app.log
+__pycache__/
+data_source/
