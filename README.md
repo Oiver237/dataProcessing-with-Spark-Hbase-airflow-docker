@@ -15,13 +15,16 @@ This project demonstrates how to connect a Spark job to an HBase instance runnin
     ./scripts/create_hbase_container.sh
     ```
 2. Run the docker-compose.yml file:
-    ```docker-compose up -d
+    ```sh
+    docker-compose up -d
     ```
 3. Run the data_generation.py to generation the csv files:
-    ```python data_generation.py
+    ```sh
+    python data_generation.py
     ```
 4. Run the Spark job:
-    ```python spark_job.py
+    ```sh
+    python spark_job.py
     ```
 
 ## File Structure
