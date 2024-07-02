@@ -1,6 +1,17 @@
+# Ignore Python virtual environment
 .venv/
+
+# Ignore data directory
 data/
+
+# Ignore configuration file
 config.json
+
+# Ignore application log file
 app.log
+
+# Ignore Python cache directories
 __pycache__/
+
+# Ignore data source directory
 data_source/
